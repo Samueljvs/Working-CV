@@ -1,13 +1,13 @@
   ---
-name: Bryan
-surname: Jenks
-position: "Information Technology Associate"
+name: Samuel
+surname: Verevis
+position: "Economist, MFAT"
 address: "Covered California"
 email: "bryan@bryanjenks.dev"
-linkedin: bryanjenks
+linkedin: "Samuel Verevis"
 date: "`r format(Sys.time(), '%B %Y')`"
-headcolor: 990000
-aboutme: "I have been writing production software in a variety of languages for over 3+ years for California Correctional Health Care Services. I have a deep driven passion for software, automation, and data science. This very CV was even compiled with code."
+headcolor: #000075
+aboutme: "I have been doing X,yA"
 docname: CV
 output: vitae::awesomecv
 ---
@@ -117,16 +117,4 @@ certifications %>%
     where = where
   )
 ```
-© 2021 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Docs
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
-Loading complete
+
