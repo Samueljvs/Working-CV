@@ -1,14 +1,14 @@
-  ---
+---
 name: Samuel
 surname: Verevis
-position: "Economist, MFAT"
-address: "Covered California"
-email: "bryan@bryanjenks.dev"
-linkedin: "Samuel Verevis"
+position: "Economist"
+address: "Ministry of Foreign Affairs and Trade"
+phone: +64 278 419 295
+email: "Sam.john.vs@gmail.com"
+github: Samueljvs
+linkedin: Samuel Verevis
 date: "`r format(Sys.time(), '%B %Y')`"
-headcolor: #000075
-aboutme: "I have been doing X,yA"
-docname: CV
+headcolor: 0074BC
 output: vitae::awesomecv
 ---
 
@@ -16,19 +16,19 @@ output: vitae::awesomecv
 knitr::opts_chunk$set(echo = FALSE,
                       warning = FALSE,
                       message = FALSE)
-require(xfun)
-packages <- c('vitae'     # The CV's LaTeX Template
-             ,'tibble'    # Data structure for tribbles
-             ,'magrittr'  # The Pipe %>%
-             ,'here'      # Relative File Paths
-             ,'readr'     # Data Loading
-             ,'glue'      # String Manipulation
-            )
-xfun::pkg_attach2(packages, message = FALSE)
-source(file = here("r","data.r"))
+
+  library(vitae)     # The CV's LaTeX Template
+  library(tibble)    # Data structure for tribbles
+  library(magrittr)  # The Pipe %>%
+  library(here)      # Relative File Paths
+  library(readr)     # Data Loading
+  library(glue)      # String Manipulation
+  
+   source(file = here("r","data.r"))
+  
 ```
 
-# Employment
+# Career Summary
 
 ```{r EMPLOYMENT}
 work %>%
@@ -49,7 +49,7 @@ edu %>%
     with = inst,
     what = degree,
     why = detail,
-    when = glue::glue("{startYear} --> {endYear}",.na = ""),
+    when = glue::glue("{startYear} -- {endYear}",.na = ""),
     where = where
   )
 ```
@@ -64,57 +64,18 @@ skills %>%
   )
 ```
 
-# Honors
 
-```{r HONORS}
-honors %>%
-  detailed_entries(
-    with = area,
-    what = accomplishment,
-    why = detail,
-    when = year,
-    where = where
-  )
-```
-
-# Projects
+# Notable Projects
 
 ```{r PROJECTS}
 projects %>%
   detailed_entries(
     with = area,
-    what = accomplishment,
     why = detail,
     when = year,
     where = where
   )
 ```
 
-# Works
 
-```{r WORKS}
-works %>%
-  detailed_entries(
-    with = area,
-    what = accomplishment,
-    why = detail,
-    when = year,
-    where = where
-  )
-```
-
-\pagebreak
-
-# Certifications
-
-```{r CERTIFICATIONS}
-certifications %>%
-  detailed_entries(
-    with = area,
-    what = accomplishment,
-    why = detail,
-    when = year,
-    where = where
-  )
-```
 
