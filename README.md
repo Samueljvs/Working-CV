@@ -1,3 +1,3 @@
-# Working-CV-s
- ## I will base this off a working example found in tallguyjenks
-### this is push test from my local computer to github
+### a working CV to store and keep updated. 
+### This is done in R markdown done with the Vitae package, awesomecv
+
