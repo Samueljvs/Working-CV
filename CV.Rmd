@@ -36,7 +36,7 @@ work %>%
     with = title,
     what = unit,
     why = detail,
-    when = glue::glue("{startMonth} {startYear} --> {endMonth} {endYear}",.na = ""),
+    when = glue::glue("{startMonth} {startYear} --- {endMonth} {endYear}",.na = ""),
     where = where
   )
 ```
@@ -60,22 +60,28 @@ edu %>%
 skills %>%
   detailed_entries(
     with = area,
-    what = skills
+    what = level,
+    why = skills
   )
 ```
-
-
+C:\Users\samjo\OneDrive\Documents\Working-CV-s
 # Notable Projects
 
 ```{r PROJECTS}
 projects %>%
   detailed_entries(
     with = area,
-    why = detail,
-    when = year,
-    where = where
+    what = sub,
+    why = detail
   )
 ```
+
+\vspace{12pt}
+
+References available upon request
+
+
+
 
 
 
