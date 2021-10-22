@@ -64,7 +64,7 @@ skills %>%
     why = skills
   )
 ```
-C:\Users\samjo\OneDrive\Documents\Working-CV-s
+
 # Notable Projects
 
 ```{r PROJECTS}
