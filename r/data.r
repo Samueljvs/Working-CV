@@ -1,17 +1,23 @@
+## Here outline each dataset 
+
 projects <- tribble(
-    ~area,  ~year, ~where, ~detail,
-    "Research Work",  2020, NA, "'What Has New Zealand Gained from the FTA with China?: A Counterfactual Analysis' with Murat Üngör",
-    "",  2019, NA, "Estimating the Ministry of Social Development Gender Pay Gap' with Tim Maloney"
+    ~area,  ~sub, ~detail,
+    "Academic", "Research Papers", "'What Has New Zealand Gained from the FTA with China?: A Counterfactual Analysis' with Murat ?ng?r",
+    "Academic", "Research Papers", "Estimating the Ministry of Social Development Gender Pay Gap' with Tim Maloney (Unpublished)",
+   "Insights",  "Working Papers",  "The Produtive, Sustinable and Inclusive Trade Channels Framework",
+   "Insights",  "Working Papers",  "Industry Exposure to Trade - The Trade Opportunities and Risk Model",
+   "Insights", "Working Papers", "Regional summaries - The Trade Opportunities and Risk Model"
 )
 
 
 skills <- tribble(
-    ~area, ~skills,
-    "Programming Languages", "R, SAS, SQL",
-    "Markup Languages", "RMarkdown",
-    "Version Control", "Git",
-    "Text Editors", "RStudio, Notepad ++, Atom",
-    "Microsoft Office", "Excel, Outlook, OneNote, PowerBI, PowerPoint, Word"
+    ~area, ~level, ~skills,
+    "Programming Languages", "Intermediate", "R knowledge, as well as SAS, SQL foundations",
+    "Programming Languages", "Intermediate", "Reporting in RMarkdown, and Git for version control",
+    "Visulisation", "Basics",  "Experience with PowerBI for dashboarding",
+    "Visulisation", "Basics", "Experience with R Shiny for producing interactive exploratory apps",
+    "Text Editors", "Basics", "RStudio, Notepad ++, Atom",
+    "Microsoft Office", "Proficient", "Excel, Outlook, OneNote, PowerPoint, Word"
 )
 
 edu <- tribble(
@@ -23,9 +29,14 @@ edu <- tribble(
 
 work <- tribble(
     ~title, ~unit, ~startMonth, ~startYear, ~endMonth, ~endYear, ~where, ~detail,
-    "Ecnomist", "Ministry of Foreign Affairs and Trade", "March", 2021, "Present", NA, "Wellington", "Work on CTPP evalustion project, Statistcs IDI/LBD with R, alongside contributting to other written projects",
-    "Analyst", "Ministry of Social Development", "April", 2018, "Ocober", 2019, "Wellington", "Performed forecast and cost modelling anaylsis with micro data, utilsing SAS, SQL and Excel",
-    "Research Assistant", "University of Otago", "January", 2018, "March", 2018, "Dunedin", "I implemented clustering analysis on survery results, to help describe preferences by population charactersitcs",
-    "Barista", "No. 7 Balmac", "October", 2014, "November", 2017, "Dunedin", "Part-time Barista through University ",
+    "Economist", "Ministry of Foreign Affairs and Trade (MFAT)", "October", 2019, "Present", NA, "Wellington", "Leding and working across serveral different workstreams, to generate valued added analysis, in the form of written papers, dashboards, and recommendations, in-line with the Minstry's strategic goals, as well as collaborating with others and delivering through consultants",
+    "Economist", "Ministry of Foreign Affairs and Trade (MFAT)", "October", 2019, "Present", NA, "Wellington", "Demonstrate strong analytical capabilities by utilising the Statistics New Zealand Integrated Data Infastructure, through querying and working across multiple data schema's and large tables to generate innovative firm level analysis, which has cut across mutltiple projects,",
+    "Economist", "Ministry of Foreign Affairs and Trade (MFAT)", "October", 2019, "Present", NA, "Wellington", "Worked widely with domestic and international agencies and stakeholders to deliver on projects, such as the CPTPP three year review, the OECD gender and trade working paper, and the Trade and Economic Group priorities,",
+    "Economist", "Ministry of Foreign Affairs and Trade (MFAT)", "October", 2019, "Present", NA, "Wellington", "Regularly communicated my work, both verbally and written, tailoring findings to audiences so it can be easily understood digested and more impactful.",
+    "Analyst", "Ministry of Social Development", "April (MSD)", 2018, "September", 2019, "Wellington", "Worked in-house, collaborating internally amongst colleagues to forecast benefit payments for the yearly government budget as well as providing policy analysts' cost modelling results, which enabled informed decision making on policy changes,",
+    "Analyst", "Ministry of Social Development", "April (MSD)", 2018, "September", 2019, "Wellington", "Regulary servicing time sensetive ad-hoc requests using complicated mirco level benefit data to answer Ministry wide questions. Leveraging SAS, SQL and Excel to do so.",
+    "Analyst", "Ministry of Social Development", "April (MSD)", 2018, "September", 2019, "Wellington", "Worked with the Cheif Economist to developed a model that more accurately estimated the gender paygap, and presenting these findings to senior leadership.",
+    "Research Assistant", "University of Otago", "January", 2018, "March", 2018, "Dunedin", "Worked on an OECD Human Development Index proejct, which involved implementing Hierachical and K-means clustering on survey results, in order to indentify sub-population preferences for the three HDI componets: Income, Health, and Education.",
+    "Barista", "No. 7 Balmac", "October", 2014, "November", 2017, "Dunedin", "Worked as a part-time barista, in a busy and popular cafe, while obtaining my degree at University.",
 )
 
