@@ -24,7 +24,7 @@ knitr::opts_chunk$set(echo = FALSE,
   library(readr)     # Data Loading
   library(glue)      # String Manipulation
   
-   source(file = here("r","data.r"))
+  source(file = here("r","data.r"))
   
 ```
 
