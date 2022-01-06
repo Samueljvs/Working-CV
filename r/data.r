@@ -4,7 +4,7 @@ projects <- tribble(
     ~area,  ~sub, ~detail,
     "Academic", "Research Papers", "'What Has New Zealand Gained from the FTA with China?: A Counterfactual Analysis' with Murat Ungor",
     "Academic", "Research Papers", "'Estimating the Ministry of Social Development Gender Pay Gap' with Tim Maloney (Internal)'",
-   "Insights",  "MFAT Research Papers",  "Contributed to 'The Produtive, Sustinable and Inclusive Trade Channels Framework'",
+   "Insights",  "MFAT Research Papers",  "'The Produtive, Sustinable and Inclusive Trade Channels Framework'",
    "Insights",  "MFAT Research Papers",  "'Goods Exporting Firms in the Longitudinal Business Database'",
    "Insights",  "MFAT Research Papers",  "'Industry Exposure to Trade - The Trade Opportunities and Risk Model'",
    "Insights",  "MFAT Research Papers", "'Regional summaries - The Trade Opportunities and Risk Model'"
@@ -35,6 +35,7 @@ work <- tribble(
     "Economist", "Ministry of Foreign Affairs and Trade (MFAT)", "October", 2019, "Present", NA, "Wellington", "Demonstrate strong analytical capabilities by utilising the Statistics New Zealand Integrated Data Infastructure. Querying and working across multiple data schema's and large tables to generate innovative firm level analysis; this work has cut across mutltiple projects,",
     "Economist", "Ministry of Foreign Affairs and Trade (MFAT)", "October", 2019, "Present", NA, "Wellington", "Worked widely with domestic and international agencies and stakeholders to deliver on projects, such as the CPTPP three year review, the OECD gender and trade working paper, and the Trade and Economic Group priorities,",
     "Economist", "Ministry of Foreign Affairs and Trade (MFAT)", "October", 2019, "Present", NA, "Wellington", "Regularly communicated my work, both verbally and written, tailoring findings to audiences so it can be easily understood digested and more impactful.",
+    "Economist", "Ministry of Foreign Affairs and Trade (MFAT)", "October", 2019, "Present", NA, "Wellington", "Out-of-Cyle promotion for recognized contribution to the teams work deliverables",
     "Analyst", "Ministry of Social Development", "April (MSD)", 2018, "September", 2019, "Wellington", "Worked in-house, collaborating internally amongst colleagues to forecast benefit payments for the yearly government budget as well as providing policy analysts' cost modelling results, which enabled informed decision making on policy changes,",
     "Analyst", "Ministry of Social Development", "April (MSD)", 2018, "September", 2019, "Wellington", "Regulary servicing time sensetive ad-hoc requests using complicated mirco level benefit data to answer Ministry wide questions. Leveraging SAS, SQL and Excel to do so.",
     "Analyst", "Ministry of Social Development", "April (MSD)", 2018, "September", 2019, "Wellington", "Worked with the Cheif Economist to developed a model that more accurately estimated the gender paygap, and presenting these findings to senior leadership.",

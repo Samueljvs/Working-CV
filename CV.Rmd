@@ -89,10 +89,9 @@ other %>%
   )
 ```
 
-
 \vspace{12pt}
 
-References available upon request
+##### References available upon request
 
 
 
