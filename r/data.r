@@ -44,13 +44,13 @@ work <- tribble(
 
 other <- tribble(
     ~area, ~sub, ~detail,
-    "Datacamp", "Competitions", "Exploring UK's fatal Traffic Accidents - 1st Place",
-    "Datacamp", "Competitions", "Hakuna Moscato. It means drink wine - A targest approach to regional wine promotions - 2nd Place",
-    "Datacamp", "Career/Skill tracks", "Data Scientist",
-    "Datacamp", "Career/Skill tracks", "Data Analyst",
-    "Datacamp", "Career/Skill tracks", "R Programmer",
-    "Datacamp", "Career/Skill tracks", "Shiny Fundamentals",
-    "CGE modelling", "Practical CGE MOdelling Course", "Excelled on the course - Pratical Computable General Equilibrium (CGE) Modelling. http://www.cgemod.org.uk/",
-    "Written Work", "Online - The Big Q", "What can we learn from the 2008 New Zealand-China Free Trade Agreement? The Big Q, March 30, 2021",
+    "Online", "Datacamp Competitions", "Exploring UK's fatal Traffic Accidents - 1st Place",
+    "Online", "Datacamp Competitions", "Hakuna Moscato. It means drink wine - A targest approach to regional wine promotions - 2nd Place",
+    "", "Datacamp Career/Skill tracks", "Data Scientist",
+    "", "Datacamp Career/Skill tracks", "Data Analyst",
+    "", "Datacamp Career/Skill tracks", "R Programmer",
+    "", "Datacamp Career/Skill tracks", "Shiny Fundamentals",
+    "", "Practical CGE MOdelling Course", "Excelled on the course - Pratical Computable General Equilibrium (CGE) Modelling. http://www.cgemod.org.uk/",
+    "", "Wriiten for The Big Q", "What can we learn from the 2008 New Zealand-China Free Trade Agreement? The Big Q, March 30, 2021",
     "Hospitality", "Courses", "Certified Barista"
 )
