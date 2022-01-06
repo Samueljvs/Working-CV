@@ -2,11 +2,12 @@
 
 projects <- tribble(
     ~area,  ~sub, ~detail,
-    "Academic", "Research Papers", "'What Has New Zealand Gained from the FTA with China?: A Counterfactual Analysis' with Murat ?ng?r",
-    "Academic", "Research Papers", "Estimating the Ministry of Social Development Gender Pay Gap' with Tim Maloney (Unpublished)",
-   "Insights",  "Working Papers",  "The Produtive, Sustinable and Inclusive Trade Channels Framework",
-   "Insights",  "Working Papers",  "Industry Exposure to Trade - The Trade Opportunities and Risk Model",
-   "Insights", "Working Papers", "Regional summaries - The Trade Opportunities and Risk Model"
+    "Academic", "Research Papers", "'What Has New Zealand Gained from the FTA with China?: A Counterfactual Analysis' with Murat Ungor",
+    "Academic", "Research Papers", "'Estimating the Ministry of Social Development Gender Pay Gap' with Tim Maloney (Internal)'",
+   "Insights",  "MFAT Research Papers",  "Contributed to 'The Produtive, Sustinable and Inclusive Trade Channels Framework'",
+   "Insights",  "MFAT Research Papers",  "'Goods Exporting Firms in the Longitudinal Business Database'",
+   "Insights",  "MFAT Research Papers",  "'Industry Exposure to Trade - The Trade Opportunities and Risk Model'",
+   "Insights",  "MFAT Research Papers", "'Regional summaries - The Trade Opportunities and Risk Model'"
 )
 
 
@@ -15,9 +16,10 @@ skills <- tribble(
     "Programming Languages", "Intermediate", "R knowledge, as well as SAS, SQL foundations",
     "Programming Languages", "Intermediate", "Reporting in RMarkdown, and Git for version control",
     "Visulisation", "Basics",  "Experience with PowerBI for dashboarding",
-    "Visulisation", "Basics", "Experience with R Shiny for producing interactive exploratory apps",
-    "Text Editors", "Basics", "RStudio, Notepad ++, Atom",
-    "Microsoft Office", "Proficient", "Excel, Outlook, OneNote, PowerPoint, Word"
+    "Visulisation", "Basics", "Experience with R Shiny for internal interactive exploratory apps",
+    "Text Editors", "Intermediate", "RStudio, Notepad ++, VS Code",
+    "Microsoft Office", "Proficient", "Excel, Outlook, OneNote, PowerPoint, Word",
+    "Other", "Basics", "HTML, CSS, Javascript, Git Bash"
 )
 
 edu <- tribble(
@@ -29,8 +31,8 @@ edu <- tribble(
 
 work <- tribble(
     ~title, ~unit, ~startMonth, ~startYear, ~endMonth, ~endYear, ~where, ~detail,
-    "Economist", "Ministry of Foreign Affairs and Trade (MFAT)", "October", 2019, "Present", NA, "Wellington", "Leding and working across serveral different workstreams, to generate valued added analysis, in the form of written papers, dashboards, and recommendations, in-line with the Minstry's strategic goals, as well as collaborating with others and delivering through consultants",
-    "Economist", "Ministry of Foreign Affairs and Trade (MFAT)", "October", 2019, "Present", NA, "Wellington", "Demonstrate strong analytical capabilities by utilising the Statistics New Zealand Integrated Data Infastructure, through querying and working across multiple data schema's and large tables to generate innovative firm level analysis, which has cut across mutltiple projects,",
+    "Economist", "Ministry of Foreign Affairs and Trade (MFAT)", "October", 2019, "Present", NA, "Wellington", "Leding and working across serveral different workstreams, generating value added analysis through written papers, dashboards, and recommendations. Working in-line with the Minstry's strategic goals, as well as collaborating with others and delivering through consultants",
+    "Economist", "Ministry of Foreign Affairs and Trade (MFAT)", "October", 2019, "Present", NA, "Wellington", "Demonstrate strong analytical capabilities by utilising the Statistics New Zealand Integrated Data Infastructure. Querying and working across multiple data schema's and large tables to generate innovative firm level analysis; this work has cut across mutltiple projects,",
     "Economist", "Ministry of Foreign Affairs and Trade (MFAT)", "October", 2019, "Present", NA, "Wellington", "Worked widely with domestic and international agencies and stakeholders to deliver on projects, such as the CPTPP three year review, the OECD gender and trade working paper, and the Trade and Economic Group priorities,",
     "Economist", "Ministry of Foreign Affairs and Trade (MFAT)", "October", 2019, "Present", NA, "Wellington", "Regularly communicated my work, both verbally and written, tailoring findings to audiences so it can be easily understood digested and more impactful.",
     "Analyst", "Ministry of Social Development", "April (MSD)", 2018, "September", 2019, "Wellington", "Worked in-house, collaborating internally amongst colleagues to forecast benefit payments for the yearly government budget as well as providing policy analysts' cost modelling results, which enabled informed decision making on policy changes,",
@@ -40,3 +42,15 @@ work <- tribble(
     "Barista", "No. 7 Balmac", "October", 2014, "November", 2017, "Dunedin", "Worked as a part-time barista, in a busy and popular cafe, while obtaining my degree at University.",
 )
 
+other <- tribble(
+    ~area, ~sub, ~detail,
+    "Datacamp", "Competitions", "Exploring UK's fatal Traffic Accidents - 1st Place",
+    "Datacamp", "Competitions", "Hakuna Moscato. It means drink wine - A targest approach to regional wine promotions - 2nd Place",
+    "Datacamp", "Career/Skill tracks", "Data Scientist",
+    "Datacamp", "Career/Skill tracks", "Data Analyst",
+    "Datacamp", "Career/Skill tracks", "R Programmer",
+    "Datacamp", "Career/Skill tracks", "Shiny Fundamentals",
+    "CGE modelling", "Practical CGE MOdelling Course", "Excelled on the course - Pratical Computable General Equilibrium (CGE) Modelling. http://www.cgemod.org.uk/",
+    "Written Work", "Online - The Big Q", "What can we learn from the 2008 New Zealand-China Free Trade Agreement? The Big Q, March 30, 2021",
+    "Hospitality", "Courses", "Certified Barista"
+)

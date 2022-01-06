@@ -76,6 +76,20 @@ projects %>%
   )
 ```
 
+# Other Accomplishments
+
+
+```{r Other}
+
+other %>%
+  detailed_entries(
+    with = area,
+    what = sub,
+    why = detail
+  )
+```
+
+
 \vspace{12pt}
 
 References available upon request
