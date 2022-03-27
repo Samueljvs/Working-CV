@@ -7,9 +7,18 @@ phone: +64 278 419 295
 email: "Sam.john.vs@gmail.com"
 github: Samueljvs
 linkedin: Samuel Verevis
+www: samueljvs.netlify.app/
 date: "`r format(Sys.time(), '%B %Y')`"
-headcolor: 0074BC
+headcolor: ef4089
 output: vitae::awesomecv
+always_allow_html: yes
+header-includes:
+  \usepackage{float}
+  \usepackage{multicol}
+  \usepackage{colortbl}
+  \arrayrulecolor{white}
+  \usepackage{hhline}
+  \definecolor{light-gray}{gray}{0.95}
 ---
 
 ```{r setup, include=FALSE}
@@ -23,6 +32,8 @@ knitr::opts_chunk$set(echo = FALSE,
   library(here)      # Relative File Paths
   library(readr)     # Data Loading
   library(glue)      # String Manipulation
+  library(emojifont)
+  library(fontawesome)
   
   source(file = here("r","data.r"))
   
@@ -76,7 +87,7 @@ projects %>%
   )
 ```
 
-# Other Accomplishments
+# Awards & Other Accomplishments 
 
 
 ```{r Other}
@@ -91,7 +102,7 @@ other %>%
 
 \vspace{12pt}
 
-##### References available upon request
+References available upon request
 
 
 
