@@ -31,11 +31,11 @@ edu <- tribble(
 work <- tribble(
     ~title, ~unit, ~startMonth, ~startYear, ~endMonth, ~endYear, ~where, ~detail,
     "Ministry of Foreign Affairs and Trade", "Economist", "October", 2019, "Present", NA, "Wellington", "Leading and working across several different work streams, generating value added analysis through written papers, dashboards, and recommendations. Working in-line with the Ministry strategic goals, as well as collaborating with others and delivering through consultants,",
-    "Ministry of Foreign Affairs and Trade", "Economist", "October", 2019, "Present", NA, "Wellington", "Working across large data to generate innovative firm-level analysis which has fed a working paper that has informed on trade evaluation and the UK-NZ Free Trade Agreement, as well as the New Zealand and OECD trade and gender review,",
-    "Ministry of Foreign Affairs and Trade", "Economist", "October", 2019, "Present", NA, "Wellington", "Working widely with domestic and international agencies and stakeholders to deliver on projects, such as the CPTPP three-year review, the OECD gender and trade working paper, the UK-NZ Free Trade Agreement NIA, and the Trade and Economic Group priorities,",
-    "Ministry of Foreign Affairs and Trade", "Economist", "October", 2019, "Present", NA, "Wellington", "Regularly communicating my work and findings to different stakeholders, tailoring to different audiences so it can be better understood and more impactful.",
-    "Ministry of Foreign Affairs and Trade", "Economist", "October", 2019, "Present", NA, "Wellington", "Out-of-Cyle promotion for recognised contribution to the team deliverables",
-    "Ministry of Social Development", "Analyst", "April", 2018, "September", 2019, "Wellington", "Collaborating amongst colleagues to forecast benefit payments for the yearly government budget as well as providing policy analysts' cost modelling results, which enabled informed decision making on policy changes,",
+    "Ministry of Foreign Affairs and Trade", "Economist", "October", 2019, "Present", NA, "Wellington", "Working with big data from the Statistics NZ Integrated Data Infrastructure to generate innovative firm-level analysis that's informed on trade evaluation, the UK-NZ Free Trade Agreement, as well as the New Zealand and OECD trade and gender review,",
+    "Ministry of Foreign Affairs and Trade", "Economist", "October", 2019, "Present", NA, "Wellington", "Working widely with domestic and international agencies and stakeholders to deliver on projects, such as the CPTPP three-year review, the trade evautation frame work and paper, and assessing global trade vulnerabilities,",
+    "Ministry of Foreign Affairs and Trade", "Economist", "October", 2019, "Present", NA, "Wellington", "Regularly communicating analysis and findings to different stakeholders, tailoring to audiences so it can be better understood and more impactful.",
+    "Ministry of Foreign Affairs and Trade", "Economist", "October", 2019, "Present", NA, "Wellington", "Out-of-cycle promotion for recognised contribution to team deliverables",
+    "Ministry of Social Development", "Analyst", "April", 2018, "September", 2019, "Wellington", "Collaborating amongst colleagues to forecast benefit payments for the yearly government budget as well as providing policy analysts' cost modelling results and advice, which enabled informed decision making on policy changes,",
     "Ministry of Social Development", "Analyst", "April", 2018, "September", 2019, "Wellington", "Regularly servicing time sensitive ad-hoc requests using complicated micro level benefit data to answer Ministry wide questions. Leveraging SAS, SQL and Excel to do so,",
     "Ministry of Social Development", "Analyst", "April", 2018, "September", 2019, "Wellington", "Worked with the Chief Economist to developed a model that more accurately estimated the gender pay gap, and presenting these findings to senior leadership.",
     "University of Otago", "Research Assistant", "January", 2018, "March", 2018, "Dunedin", "Worked on an OECD Human Development Index project, which involved implementing Hierarchical and K-means clustering on survey results, in order to identify sub-population preferences for the three HDI components: Income, Health, and Education.",
@@ -44,17 +44,17 @@ work <- tribble(
 
 other <- tribble(
     ~area, ~sub, ~detail,
-    "New Zealand Assossiation of Economists", "Presentations", "Poster Presentation on Trade Evaluation Framework; Productive, Inclusive, Sustainable Trade Channels - 2021",
-    "New Zealand Assossiation of Economists", "Presentations", "Poster Presentation on China New Zealand FTA - won Peopeles Choice Poster Prize - 2018",
+    "New Zealand Association  of Economists", "Presentations", "Poster Presentation on Trade Evaluation Framework; Productive, Inclusive, Sustainable Trade Channels - 2021",
+    "New Zealand Association  of Economists", "Presentations", "Poster Presentation on China New Zealand FTA - won People’s Choice Poster Prize - 2018",
     "Online", "Datacamp Competitions", "Exploring UKs fatal Traffic Accidents - 1st Place",
     "Online", "Datacamp Competitions", "Why staff are leaving and why you should care - 1st Place",
-    "Online", "Datacamp Competitions", "Neither Too much nor too little but just right. A profolio assessment on the Goldie-locks of Bitcoin - 2nd Place",
+    "Online", "Datacamp Competitions", "Neither Too much nor too little but just right. A protfolio assessment on the Goldie-locks of Bitcoin - 2nd Place",
     "Online", "Datacamp Competitions", "Hakuna Moscato. It means drink wine - A targeted approach to regional wine promotions - 2nd Place",
     "", "Datacamp Career/Skill tracks", "Data Scientist",
     "", "Datacamp Career/Skill tracks", "Data Analyst",
     "", "Datacamp Career/Skill tracks", "R Programmer",
     "", "Datacamp Career/Skill tracks", "Shiny Fundamentals",
-    "", "Practical CGE Modelling Course", "Excelled on the course - Practical  Computable General Equilibrium (CGE) Modelling. http://www.cgemod.org.uk/",
+    "", "Practical CGE Modelling Course", "Excelled on the course - Practical Computable General Equilibrium (CGE) Modelling. http://www.cgemod.org.uk/",
     "", "Written for The Big Q", "What can we learn from the 2008 New Zealand-China Free Trade Agreement? The Big Q, March 30, 2021",
     "Hospitality", "Courses", "Certified Barista"
     )
