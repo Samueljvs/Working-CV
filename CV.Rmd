@@ -9,16 +9,9 @@ github: Samueljvs
 linkedin: Samuel Verevis
 www: samueljvs.netlify.app/
 date: "`r format(Sys.time(), '%B %Y')`"
-headcolor: ef4089
+headcolor: 009ACD 
 output: vitae::awesomecv
 always_allow_html: yes
-header-includes:
-  \usepackage{float}
-  \usepackage{multicol}
-  \usepackage{colortbl}
-  \arrayrulecolor{white}
-  \usepackage{hhline}
-  \definecolor{light-gray}{gray}{0.95}
 ---
 
 ```{r setup, include=FALSE}
@@ -36,6 +29,9 @@ knitr::opts_chunk$set(echo = FALSE,
   library(fontawesome)
   
   source(file = here("r","data.r"))
+
+# old color: ef4089
+# profilepic: sam.jpg
   
 ```
 
@@ -76,19 +72,54 @@ skills %>%
   )
 ```
 
-# Notable Projects
+<!-- # Notable Projects -->
 
-```{r PROJECTS}
-projects %>%
-  detailed_entries(
-    with = area,
-    what = sub,
-    why = detail
-  )
-```
+<!-- ```{r PROJECTS} -->
+<!-- projects %>% -->
+<!--   detailed_entries( -->
+<!--     with = area, -->
+<!--     what = sub, -->
+<!--     why = detail -->
+<!--   ) -->
+<!-- ``` -->
+ 
+# Research Papers
 
-# Awards & Other Accomplishments 
+\descriptionstyle{
+ S. Verevis, M. Ungor, 2020. `What Has New Zealand Gained from the FTA with China?: A Counterfactual Analysis'} \hspace*{\fill}[\faLink](https://onlinelibrary.wiley.com/doi/epdf/10.1111/sjpe.12260)
 
+\descriptionstyle{ 
+S. Verevis, T. Maloney, 2020. 'Estimating the Ministry of Social Development Gender Pay Gap (Internal)'}
+
+\descriptionstyle{
+MFAT Working Paper, February 2022. 'Inclusive and productive characteristics of New Zealands goods export firms'}\hspace*{\fill}[\faDownload](https://www.mfat.govt.nz/assets/Trade-General/Trade-stats-and-economic-research/Inclusive-and-productive-characteristics-of-New-Zealand-goods-exporting-firms-MFAT-Working-Paper.pdf)
+
+\descriptionstyle{
+MFAT Working Paper, May 2021. 'The Productive, Sustainable  and Inclusive Trade Channels Framework'}\hspace*{\fill}[\faDownload](https://www.mfat.govt.nz/assets/Trade-General/Trade-stats-and-economic-research/Productive-Sustainable-and-Inclusive-Trade-Channels-Framework.pdf)
+
+
+\descriptionstyle{
+MFAT Working Paper, July 2020. 'Industry Exposure to Trade - The Trade Opportunities and Risk Model'}\hspace*{\fill}[\faDownload](https://www.mfat.govt.nz/assets/Trade-General/Trade-stats-and-economic-research/STORM-Analysis-Unclassified-Version.pdf)
+
+\descriptionstyle{
+People’s Choice Poster Prize - 2018 NZAE conference}\hspace*{\fill}[\faLink](https://www.nzae.org.nz/prizes/peoples-choice-poster-prize/)
+
+# Competitions
+
+\descriptionstyle{
+*Exploring UK's fatal Traffic Accidents* - 1st Place}  \hspace*{\fill}[\faLink](https://app.datacamp.com/workspace/w/39b1c5ff-f516-4e84-af83-04d8ea361642)
+
+\descriptionstyle{
+*Why staff are leaving and why you should care* - 1st Place}  \hspace*{\fill}[\faLink](https://app.datacamp.com/workspace/w/acce6834-78ac-4e3c-9f36-a37b6da20ffe)
+
+\descriptionstyle{
+*Neither Too much nor too little but just right. A protfolio assessment on the Goldie-locks of Bitcoin* - 2nd Place} \hspace*{\fill}[\faLink](https://app.datacamp.com/workspace/w/b4d8a09a-db18-40e4-9d74-f0b15ad38934)
+
+\descriptionstyle{
+*Hakuna Moscato. It means drink wine - A targeted approach to regional wine promotions* - 2nd Place} \hspace*{\fill}[\faLink](https://app.datacamp.com/workspace/w/9fe41f5d-25aa-44cf-9046-11c7aba12587)
+
+
+# Other
 
 ```{r Other}
 
@@ -102,7 +133,8 @@ other %>%
 
 \vspace{12pt}
 
-References available upon request
+\descriptionstyle{
+References available upon request}
 
 
 

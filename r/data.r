@@ -44,12 +44,6 @@ work <- tribble(
 
 other <- tribble(
     ~area, ~sub, ~detail,
-    "New Zealand Association  of Economists", "Presentations", "Poster Presentation on Trade Evaluation Framework; Productive, Inclusive, Sustainable Trade Channels - 2021",
-    "New Zealand Association  of Economists", "Presentations", "Poster Presentation on China New Zealand FTA - won People’s Choice Poster Prize - 2018",
-    "Online", "Datacamp Competitions", "Exploring UKs fatal Traffic Accidents - 1st Place",
-    "Online", "Datacamp Competitions", "Why staff are leaving and why you should care - 1st Place",
-    "Online", "Datacamp Competitions", "Neither Too much nor too little but just right. A protfolio assessment on the Goldie-locks of Bitcoin - 2nd Place",
-    "Online", "Datacamp Competitions", "Hakuna Moscato. It means drink wine - A targeted approach to regional wine promotions - 2nd Place",
     "", "Datacamp Career/Skill tracks", "Data Scientist",
     "", "Datacamp Career/Skill tracks", "Data Analyst",
     "", "Datacamp Career/Skill tracks", "R Programmer",
