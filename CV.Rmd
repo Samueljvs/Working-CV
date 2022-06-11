@@ -92,10 +92,13 @@ skills %>%
 S. Verevis, T. Maloney, 2020. 'Estimating the Ministry of Social Development Gender Pay Gap (Internal)'}
 
 \descriptionstyle{
-MFAT Working Paper, February 2022. 'Inclusive and productive characteristics of New Zealands goods export firms'}\hspace*{\fill}[\faDownload](https://www.mfat.govt.nz/assets/Trade-General/Trade-stats-and-economic-research/Inclusive-and-productive-characteristics-of-New-Zealand-goods-exporting-firms-MFAT-Working-Paper.pdf)
+MFAT Working Paper, February 2022. 'Inclusive and productive characteristics of New Zealand's goods export firms'}\hspace*{\fill}[\faDownload](https://www.mfat.govt.nz/assets/Trade-General/Trade-stats-and-economic-research/Inclusive-and-productive-characteristics-of-New-Zealand-goods-exporting-firms-MFAT-Working-Paper.pdf)
+
 
 \descriptionstyle{
-MFAT Working Paper, May 2021. 'The Productive, Sustainable  and Inclusive Trade Channels Framework'}\hspace*{\fill}[\faDownload](https://www.mfat.govt.nz/assets/Trade-General/Trade-stats-and-economic-research/Productive-Sustainable-and-Inclusive-Trade-Channels-Framework.pdf)
+OECD 2022, June 2022. 'Trade and Gender Review of New Zealand', OECD Publishing, Paris}\hspace*{\fill}[\faLink](https://doi.org/10.1787/923576ea-en)
+
+\descriptionstyle{MFAT Working Paper, May 2021. 'The Productive, Sustainable and Inclusive Trade Channels Framework'}\hspace*{\fill}[\faDownload](https://www.mfat.govt.nz/assets/Trade-General/Trade-stats-and-economic-research/Productive-Sustainable-and-Inclusive-Trade-Channels-Framework.pdf)
 
 
 \descriptionstyle{
