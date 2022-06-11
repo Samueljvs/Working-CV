@@ -3,7 +3,7 @@ name: Samuel
 surname: Verevis
 position: "Economist"
 address: "Ministry of Foreign Affairs and Trade"
-phone: +64 278 419 295
+phone: +64 278 419 285
 email: "Sam.john.vs@gmail.com"
 github: Samueljvs
 linkedin: Samuel Verevis
