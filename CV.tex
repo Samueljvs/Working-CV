@@ -1,0 +1,242 @@
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+% Awesome CV LaTeX Template for CV/Resume
+%
+% This template has been downloaded from:
+% https://github.com/posquit0/Awesome-CV
+%
+% Author:
+% Claud D. Park <posquit0.bj@gmail.com>
+% http://www.posquit0.com
+%
+%
+% Adapted to be an Rmarkdown template by Mitchell O'Hara-Wild
+% 23 November 2018
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+%
+%-------------------------------------------------------------------------------
+% CONFIGURATIONS
+%-------------------------------------------------------------------------------
+% A4 paper size by default, use 'letterpaper' for US letter
+\documentclass[11pt,a4paper,]{awesome-cv}
+
+% Configure page margins with geometry
+\usepackage{geometry}
+\geometry{left=1.4cm, top=.8cm, right=1.4cm, bottom=1.8cm, footskip=.5cm}
+
+
+% Specify the location of the included fonts
+\fontdir[fonts/]
+
+% Color for highlights
+% Awesome Colors: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange
+%                 awesome-nephritis, awesome-concrete, awesome-darknight
+
+\definecolor{awesome}{HTML}{009ACD}
+
+% Colors for text
+% Uncomment if you would like to specify your own color
+% \definecolor{darktext}{HTML}{414141}
+% \definecolor{text}{HTML}{333333}
+% \definecolor{graytext}{HTML}{5D5D5D}
+% \definecolor{lighttext}{HTML}{999999}
+
+% Set false if you don't want to highlight section with awesome color
+\setbool{acvSectionColorHighlight}{true}
+
+% If you would like to change the social information separator from a pipe (|) to something else
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad}
+
+\def\endfirstpage{\newpage}
+
+%-------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%-------------------------------------------------------------------------------
+% Available options: circle|rectangle,edge/noedge,left/right
+
+\name{Samuel}{Verevis}
+
+\position{Economist}
+\address{Ministry of Foreign Affairs and Trade}
+
+\mobile{+64 278 419 285}
+\email{\href{mailto:Sam.john.vs@gmail.com}{\nolinkurl{Sam.john.vs@gmail.com}}}
+\homepage{samueljvs.netlify.app/}
+\github{Samueljvs}
+\linkedin{Samuel Verevis}
+
+% \gitlab{gitlab-id}
+% \stackoverflow{SO-id}{SO-name}
+% \skype{skype-id}
+% \reddit{reddit-id}
+
+
+\usepackage{booktabs}
+
+\providecommand{\tightlist}{%
+	\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+%------------------------------------------------------------------------------
+
+
+
+% Pandoc CSL macros
+
+\begin{document}
+
+% Print the header with above personal informations
+% Give optional argument to change alignment(C: center, L: left, R: right)
+\makecvheader
+
+% Print the footer with 3 arguments(<left>, <center>, <right>)
+% Leave any of these blank if they are not needed
+% 2019-02-14 Chris Umphlett - add flexibility to the document name in footer, rather than have it be static Curriculum Vitae
+\makecvfooter
+  {December 2023}
+    {Samuel Verevis~~~·~~~Curriculum Vitae}
+  {\thepage}
+
+
+%-------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%	Each section is imported separately, open each file in turn to modify content
+%------------------------------------------------------------------------------
+
+
+
+\hypertarget{career-summary}{%
+\section{Career Summary}\label{career-summary}}
+
+\begin{cventries}
+    \cventry{Data Scientist}{New Zealand Trand and Enterprise}{Wellington}{August 2022 --- November 2023}{\begin{cvitems}
+\item Worked on KPIS
+\end{cvitems}}
+    \cventry{Economist}{Ministry of Foreign Affairs and Trade}{Wellington}{October 2019 --- August 2022}{\begin{cvitems}
+\item Leading and working across several different work streams, generating value added analysis through written papers, dashboards, and trade policy recommendations. As well as collaborating and delivering projects with policy makers, government colleagues and external consultants
+\item Working with big data from the Statistics NZ Integrated Data Infrastructure to generate innovative firm-level analysis that has informed on trade evaluation, the UK-NZ Free Trade Agreement, as well as the New Zealand and OECD trade and gender review,
+\item Working widely with domestic and international agencies and stakeholders to deliver on projects, such as the CPTPP three-year review, the trade evautation frame work and paper, and assessing global trade vulnerabilities,
+\item Regularly communicating analysis and findings to different stakeholders, tailoring to audiences so it can be better understood and more impactful.
+\item Out-of-cycle promotion for recognised contribution to team deliverables
+\end{cvitems}}
+    \cventry{Analyst}{Ministry of Social Development}{Wellington}{April 2018 --- September 2019}{\begin{cvitems}
+\item Collaborating amongst colleagues to forecast benefit payments for the yearly government budget as well as providing policy analysts' cost modelling results and advice, which enabled informed decision making on policy changes,
+\item Regularly servicing time sensitive ad-hoc requests using complicated micro level benefit data to answer Ministry wide questions. Leveraging SAS, SQL and Excel to do so,
+\item Worked with the Chief Economist to developed a model that more accurately estimated the gender pay gap, and Augusted 2022 findings to senior leadership.
+\end{cvitems}}
+    \cventry{Research Assistant}{University of Otago}{Dunedin}{January 2018 --- March 2018}{\begin{cvitems}
+\item Worked on an OECD Human Development Index project, which involved implementing Hierarchical and K-means clustering on survey results, in order to identify sub-population preferences for the three HDI components: Income, Health, and Education.
+\end{cvitems}}
+    \cventry{Barista}{No. 7 Balmac}{Dunedin}{October 2014 --- November 2017}{\begin{cvitems}
+\item Worked as a part-time barista, in a busy and popular cafe, while obtaining my degree at University.
+\end{cvitems}}
+\end{cventries}
+
+\hypertarget{education}{%
+\section{Education}\label{education}}
+
+\begin{cventries}
+    \cventry{Otago University}{Masters of Economics, with distinction}{Dunedin}{2017 -- 2018}{}\vspace{-4.0mm}
+    \cventry{Otago University}{Bachelor of Science, Major in Economics, Minor in Psychology}{Dunedin}{2014 -- 2016}{}\vspace{-4.0mm}
+    \cventry{Rathkeale College}{NCEA}{Wiararapa}{2007 -- 2011}{\begin{cvitems}
+\item Level 1, 2, 3
+\end{cvitems}}
+\end{cventries}
+
+\hypertarget{skills}{%
+\section{Skills}\label{skills}}
+
+\begin{cventries}
+    \cventry{Intermediate}{Programming Languages}{}{}{\begin{cvitems}
+\item R knowledge, as well as SAS, SQL foundations
+\item Reporting in RMarkdown, and Git for version control
+\end{cvitems}}
+    \cventry{Basics}{Visualization}{}{}{\begin{cvitems}
+\item Experience with PowerBI for dashboarding
+\item Experience with R Shiny for internal interactive exploratory apps
+\end{cvitems}}
+    \cventry{Intermediate}{Text Editors}{}{}{\begin{cvitems}
+\item RStudio, Notepad ++, VS Code
+\end{cvitems}}
+    \cventry{Proficient}{Microsoft Office}{}{}{\begin{cvitems}
+\item Excel, Outlook, OneNote, PowerPoint, Word
+\end{cvitems}}
+    \cventry{Basics}{Other}{}{}{\begin{cvitems}
+\item HTML, CSS, Javascript, Git Bash
+\end{cvitems}}
+\end{cventries}
+
+\hypertarget{research-papers}{%
+\section{Research Papers}\label{research-papers}}
+
+\descriptionstyle{
+ S. Verevis, M. Ungor, 2020. `What Has New Zealand Gained from the FTA with China?: A Counterfactual Analysis'}
+\hspace*{\fill}\href{https://onlinelibrary.wiley.com/doi/epdf/10.1111/sjpe.12260}{\faLink}
+
+\descriptionstyle{ 
+S. Verevis, T. Maloney, 2020. 'Estimating the Ministry of Social Development Gender Pay Gap (Internal)'}
+
+\descriptionstyle{
+MFAT Working Paper, February 2022. 'Inclusive and productive characteristics of New Zealand's goods export firms'}\hspace*{\fill}\href{https://www.mfat.govt.nz/assets/Trade-General/Trade-stats-and-economic-research/Inclusive-and-productive-characteristics-of-New-Zealand-goods-exporting-firms-MFAT-Working-Paper.pdf}{\faDownload}
+
+\descriptionstyle{
+OECD 2022, June 2022. 'Trade and Gender Review of New Zealand', OECD Publishing, Paris}\hspace*{\fill}\href{https://doi.org/10.1787/923576ea-en}{\faLink}
+
+\descriptionstyle{MFAT Working Paper, May 2021. 'The Productive, Sustainable and Inclusive Trade Channels Framework'}\hspace*{\fill}\href{https://www.mfat.govt.nz/assets/Trade-General/Trade-stats-and-economic-research/Productive-Sustainable-and-Inclusive-Trade-Channels-Framework.pdf}{\faDownload}
+
+\descriptionstyle{
+MFAT Working Paper, July 2020. 'Industry Exposure to Trade - The Trade Opportunities and Risk Model'}\hspace*{\fill}\href{https://www.mfat.govt.nz/assets/Trade-General/Trade-stats-and-economic-research/STORM-Analysis-Unclassified-Version.pdf}{\faDownload}
+
+\descriptionstyle{
+People’s Choice Poster Prize - 2018 NZAE conference}\hspace*{\fill}\href{https://www.nzae.org.nz/prizes/peoples-choice-poster-prize/}{\faLink}
+
+\hypertarget{competitions}{%
+\section{Competitions}\label{competitions}}
+
+\descriptionstyle{
+Exploring UK's fatal Traffic Accidents - 1st Place}
+\hspace*{\fill}\href{https://app.datacamp.com/workspace/w/39b1c5ff-f516-4e84-af83-04d8ea361642}{\faLink}
+
+\descriptionstyle{
+Why staff are leaving and why you should care - 1st Place}
+\hspace*{\fill}\href{https://app.datacamp.com/workspace/w/acce6834-78ac-4e3c-9f36-a37b6da20ffe}{\faLink}
+
+\descriptionstyle{
+Neither Too much nor too little but just right. A protfolio assessment on the Goldie-locks of Bitcoin - 2nd Place}
+\hspace*{\fill}\href{https://app.datacamp.com/workspace/w/b4d8a09a-db18-40e4-9d74-f0b15ad38934}{\faLink}
+
+\descriptionstyle{
+Hakuna Moscato. It means drink wine - A targeted approach to regional wine promotions - 2nd Place}
+\hspace*{\fill}\href{https://app.datacamp.com/workspace/w/9fe41f5d-25aa-44cf-9046-11c7aba12587}{\faLink}
+
+\hypertarget{other}{%
+\section{Other}\label{other}}
+
+\begin{cventries}
+    \cventry{Datacamp Career/Skill tracks}{}{}{}{\begin{cvitems}
+\item Data Scientist
+\item Data Analyst
+\item R Programmer
+\item Shiny Fundamentals
+\end{cvitems}}
+    \cventry{Practical CGE Modelling Course}{}{}{}{\begin{cvitems}
+\item Excelled on the course - Practical Computable General Equilibrium (CGE) Modelling. http://www.cgemod.org.uk/
+\end{cvitems}}
+    \cventry{Written for The Big Q}{}{}{}{\begin{cvitems}
+\item What can we learn from the 2008 New Zealand-China Free Trade Agreement? The Big Q, March 30, 2021
+\end{cvitems}}
+    \cventry{Courses}{Hospitality}{}{}{\begin{cvitems}
+\item Certified Barista
+\end{cvitems}}
+\end{cventries}
+
+\vspace{12pt}
+
+\descriptionstyle{
+References available upon request}
+
+
+
+\end{document}
